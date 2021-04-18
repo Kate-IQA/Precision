@@ -11,21 +11,35 @@
 <https://github.com/Kate-IQA/Precision/issues/1#issue-855307636>
 
 
-В процессе тестирования использовался следующий артефакт*:
+В процессе тестирования использовался следующий артефакт:
 * <Тест-кейс на проверку данных>
 
 
 
 В качестве тестовых данных использовались исходные данные кода:
-* <public class Main {
+
+ <public class Main {
+
   public static void main(String[] args) {
+
   double regularBonus = 0.3;
+
   double specialBonus = 0.6;
+
   double totalBonus = regularBonus + specialBonus;
+
   System.out.println(totalBonus);
+
   }
+
   }>
-  
+
+Фактический результат:
+* <0.8999999999999999>
+
+Ожидаемый результат:
+* <0,9 >
+
 Тестирование производилось в следующем окружении:
 * <Windows 10 и разрядность ОС 64 >
 * <версия Java 11.0>
