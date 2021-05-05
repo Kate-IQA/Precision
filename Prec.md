@@ -8,7 +8,7 @@
 
 В результате тестирования выявлен следующий дефект:
 
-[Ошибка расчета бонусов в IDEA] (https://github.com/Kate-IQA/Precision/issues/1#issue-855307636)
+* [Ошибка расчета бонусов в IDEA](https://github.com/Kate-IQA/Precision/issues/1#issue-855307636)
 
 
 В процессе тестирования использовался следующий артефакт:
